@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* vamos criar nosso primeiro CSS*/
+
+*{
+    margin: 0;
+    /* diferença do objeto ate o limite */
+    padding: 0;
+    /* distancia de um objeto a outro */
+    box-sizing: border-box;
+    /* define a largura e comprimento d  */
+    font-family: 'Times New Roman', Times, serif;
+    /* fontes padrão */
+}
+
+body{
+    background-color: #dbf4ff;
+}
+
+h1,h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7aa2c4;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+    color: #7aa2c4;
+}
+
+#sasa{
+    background-color: #f09aa6c5;
+    font-size: large;
+    margin-right: 14px;
+    color: #7aa2c4;
+}
+
+#beaa{
+    background-color: #f09aa6c5;
+}

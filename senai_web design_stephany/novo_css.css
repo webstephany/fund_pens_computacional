@@ -1,0 +1,72 @@
+@charset "utf-8";
+ 
+/* background-color: #BD76CB, #551C6F, */
+
+/* comentario novo */
+
+:root{
+  --fundtela:#ab616bc9;
+  --desttexto: #9c4949b9;
+  --linktela: #de9ca5c5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  text-align: justify;
+  color: #693851;
+
+  /* colore o fundo da página, usando hexadecimal e 
+    podemos colocar o background-image para colocar mais cores na pagina */
+  /* background-color: rgb(200, 224, 255); */
+
+  background-image: linear-gradient(to left bottom, #769edb, #5b21a7);
+
+  background-image: url("/wlp4k.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+article {
+  background-color: var(--fundtela);
+}
+
+header, h1{
+    text-align: left;
+    width: 100vw;
+    height: 15vh;
+    background-color: #aa5e68cb;
+}
+
+menu, ul{
+    text-align: center;
+    width:100vw;
+    height: 10vh;
+    background-color: var(--desttexto);
+    color: #ffffffdc;
+}
+
+section{
+    width: 100vw;
+    height: 15vh;
+    background-color:var(--linktela);
+}
+
+footer{
+  text-align: center;
+    width: 100vw;
+    height: 15px;
+    background-color: var(--fundtela);
+}
+p{
+  text-align: center;
+  color: #4e2525;
+  font-size: medium;
+}
